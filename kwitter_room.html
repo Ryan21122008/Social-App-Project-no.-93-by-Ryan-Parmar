@@ -1,0 +1,22 @@
+<html>
+<head> 
+ <title> Kwitter Rooms </title>
+ <link rel="stylesheet" href="kwitter.css">
+ <script href="kwitter_room.js"> </script>
+ <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>      
+</head>
+<body>
+  <button id="logout" class="btn btn-danger" onclick="logout()"> Logout[->] </button>
+  <h1 id="heading"> Kwitter <sup> <img src="https://i.postimg.cc/85rkqws5/Screenshot-2022-01-14-at-2-02-33-PM.png"> </sup> </h1>
+  <h2 id="nameofuser"> </h2>
+  <h3> Create your Room here </h3>
+  <input id="roominput" type="text" placeholder="Room name here">
+  <br>
+  <button  id="addroom" class="btn btn-success" onclick="addroom()"> Add Room </button>
+  <h3> Trending Rooms </h3>
+  <div id="presetrooms"> </div>
+</body>
+</html>

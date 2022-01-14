@@ -1,6 +1,6 @@
 body{
     text-align:center;
-    background-color:yellow;
+    background:rgb(1, 132, 255) !important;
 }
 #loginbtn{
     margin-top:20px;
@@ -14,6 +14,45 @@ body{
 #userinput{
     width:250px;
     padding-left:20px;
-    margin-left:600px;
+    margin-left:1000px;
+}
+#logout{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:85%;
+    width:100px;
+    height:50px;
+    font-size:large;
+}
+#nameofuser{
+    margin-bottom:30px;
+    font-size:40px;
+}
+#roominput{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    height:35px;
+    width:350px;
+}
+#heading{
+    font-size:60px;
+    margin-bottom:40px;
+}
+#presetrooms{
+    padding:10px;
+    width:80%;
+    border-radius:5px;
+}
+#addroom{
+    margin-bottom:25px;
+}
+img{
+    height:100px;
+}
+#firstkwitter{
+    font-size:60px;
+    margin-top:50px;
 }
 
